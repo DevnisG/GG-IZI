@@ -1,7 +1,7 @@
 # GG IZI 🦀
 
 ## Deployado en Netlify
-[![Netlify Status](https://api.netlify.com/api/v1/badges/25bb9c01-a700-483f-9fce-6215e2a02000/deploy-status)](https://app.netlify.com/projects/gg-wp/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/de27d09d-d680-41a0-9ac7-3104c6dcf4bc/deploy-status)](https://app.netlify.com/projects/gg-wp/deploys)
 
 ## Resumen
 

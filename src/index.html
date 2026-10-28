@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#070612">
+  <meta name="description" content="GG WP.">
+  <link rel="icon" type="image/png" href="/assets/favicon.png?v=2">
+  <link rel="stylesheet" href="src/styles.css">
+  <title>GG WP!</title>
+  <script src="src/script.js" defer></script>
+</head>
+<body>
+  <main class="rave" id="rave" inert>
+    <div class="lights" aria-hidden="true">
+      <span class="light light--cyan"></span>
+      <span class="light light--pink"></span>
+      <span class="light light--yellow"></span>
+    </div>
+
+    <div class="floaters" aria-hidden="true">
+      <span>MALOS</span>
+      <span>GG IZI 🦀</span>
+      <span>PETES</span>
+      <span>EZ GAME</span>
+      <span>GG IZI</span>
+      <span>🦀 PETES</span>
+      <span>GG WP</span>
+      <span>GG IZI</span>
+      <span>🦀 🦀</span>
+      <span>MEJOREN</span>
+      <span>GG IZI</span>
+      <span>MALOS</span>
+    </div>
+
+    <div class="marquee marquee--top" aria-hidden="true">
+      <div class="marquee__track">
+        <div class="marquee__segment">
+          <span>🦀 PETES, PETES, PETES, PETES</span>
+          <span>💥 GG IZI</span>
+          <span>🦀 MEJOREN PETES</span>
+          <span>💥 GG IZI</span>
+        </div>
+        <div class="marquee__segment">
+          <span>🦀 PETES, PETES, PETES, PETES</span>
+          <span>💥 GG IZI</span>
+          <span>🦀 MEJOREN PETES</span>
+          <span>💥 GG IZI</span>
+        </div>
+      </div>
+    </div>
+
+    <section class="stage" aria-label="MEJOREN PETES. GG IZI.">
+      <h1 class="stage__title">MEJOREN <span>PETES</span></h1>
+      <div class="stage__crab">
+        <div class="stage__halo" aria-hidden="true"></div>
+        <span class="stage__fallback" id="crab-fallback" aria-hidden="true">🦀</span>
+        <img class="stage__gif" alt="Cangrejo bailando" draggable="false">
+        <img class="stage__gif" alt="Cangrejo bailando" draggable="false">
+      </div>
+      <p class="stage__shout">GG IZI 🦀 GG WP</p>
+    </section>
+
+    <div class="marquee marquee--bottom" aria-hidden="true">
+      <div class="marquee__track">
+        <div class="marquee__segment">
+          <span>🔥 PETES PETES PETES PETES</span>
+          <span>GG IZI 🦀</span>
+          <span>MEJOREN PETES 💥</span>
+          <span>GG WP</span>
+        </div>
+        <div class="marquee__segment">
+          <span>🔥 PETES PETES PETES PETES</span>
+          <span>GG IZI 🦀</span>
+          <span>MEJOREN PETES 💥</span>
+          <span>GG WP</span>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <span>© <span id="year">2026</span> · Desarrollado por DevnisG · <a href="https://github.com/devnisg" target="_blank" rel="noopener noreferrer">github.com/devnisg</a></span>
+    </footer>
+  </main>
+
+  <div class="gate" id="gate">
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-describedby="modal-hint">
+      <div class="modal__bar">
+        <span>FIN DE PARTIDA</span>
+        <span class="modal__x" aria-hidden="true">×</span>
+      </div>
+      <div class="modal__body">
+        <h2 id="modal-title" class="modal__title">GG WP</h2>
+        <div class="modal__emojis" aria-hidden="true">🏆 🦀</div>
+        <button class="modal__button" id="close" type="button" autofocus>✕ CERRAR</button>
+        <p class="modal__hint" id="modal-hint">O HACÉ CLIC EN CUALQUIER PARTE</p>
+      </div>
+    </div>
+  </div>
+
+  <audio id="music" src="assets/audio.mp3" preload="auto" loop></audio>
+</body>
+</html>
